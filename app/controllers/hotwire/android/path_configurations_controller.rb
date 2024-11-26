@@ -42,7 +42,7 @@ class Hotwire::Android::PathConfigurationsController < ApplicationController
           }
         },
         {
-          patterns: ["/users/sign_in"],
+          patterns: [new_user_session_path],
           properties: {
             uri: "turbo://fragment/users/sign_in",
             context: "modal"
