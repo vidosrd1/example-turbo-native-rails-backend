@@ -17,6 +17,11 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "debug", platforms: %i[mri mingw x64_mingw]
+<<<<<<< HEAD
+=======
+  gem "pry-rails"
+  gem "standard"
+>>>>>>> 5c3d7ef7f087b946ca9e002345f2d12735fcb4a7
 end
 group :development do
   gem "web-console"
